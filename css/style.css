@@ -1,7 +1,7 @@
 
 
 body {
-	background: #ffffff;
+	background: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
 	font-weight: 300;
@@ -37,7 +37,7 @@ h2 {
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 12px;
 }
 
 h4 {
@@ -462,19 +462,19 @@ footer {
 }
 
 .portfolio-thumb img {
-    filter: grayscale(100%);
+    filter: grayscale(100%)
 }
     
 
 .portfolio-item-hover {
-  position: absolute;
+  position: hidden;
   overflow: hidden;
   z-index: 1;
   top:0;
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0;
+  opacity: 100;
   color: #a1c45a;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
